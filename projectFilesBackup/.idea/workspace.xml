@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5289a2d-dfec-4847-a9a9-906b0e5c4eff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/app/src/main/java/com/tbs/lab/mlkit/ImageAnalyser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/androidTest/java/com/tbs/camerax/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/java/com/tbs/camerax/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/layout/layout_camera_preview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/camerax/src/test/java/com/tbs/camerax/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/app/src/main/java/com/tbs/medium/backgroundforeground/ActivityA.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/app/src/main/java/com/tbs/medium/backgroundforeground/ActivityB.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/app/src/main/java/com/tbs/medium/backgroundforeground/AppController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/app/src/main/java/com/tbs/medium/backgroundforeground/AppLifeCycleListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/app/src/main/java/com/tbs/medium/backgroundforeground/ProcessLifeCycleListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/app/src/main/java/com/tbs/medium/backgroundforeground/arch/lifecycle/AppProcessLifeCycleListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/app/src/main/res/layout/layout_activity_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/app/src/main/res/layout/layout_activity_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RX/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RX/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RssReader/app/src/main/java/com/tbs/rssreader/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RssReader/app/src/main/java/com/tbs/rssreader/samples/AsyncLaunch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RssReader/app/src/main/java/com/tbs/rssreader/samples/Dispatcher.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RssReader/app/src/main/java/com/tbs/rssreader/samples/Launch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RssReader/app/src/main/res/layout/layout_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RssReader/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/tbs/domain/interactor/bookmarked/BookmarkProject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/tbs/domain/interactor/bookmarked/BookmarkProject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/test/java/com/tbs/domain/interactor/GetProjectsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/test/java/com/tbs/domain/interactor/GetProjectsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1duv00EmqjCCK9r2mXlxFW9718R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.tbs.domain.executer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="github.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetProjectsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="github.Domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tbs.domain.interactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tbs.domain.interactor" />
+      <option name="MAIN_CLASS_NAME" value="com.tbs.domain.interactor.GetProjectsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetProjectsTest.getProjectsCompletes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="github.Domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tbs.domain.interactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tbs.domain.interactor" />
+      <option name="MAIN_CLASS_NAME" value="com.tbs.domain.interactor.GetProjectsTest" />
+      <option name="METHOD_NAME" value="getProjectsCompletes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5289a2d-dfec-4847-a9a9-906b0e5c4eff" name="Default Changelist" comment="" />
+      <created>1593287565149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593287565149</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1152" y="-503" key="#PSD" timestamp="1593296628419">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state x="-1152" y="-502" key="#PSD/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593296578546" />
+    <state x="-1201" y="-376" key="#PSD/-820.1103.1440.851/0.23.1920.1057/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593287739683" />
+    <state x="-1152" y="-503" key="#PSD/-820.1103.1440.877/0.23.1920.1057/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593296628419" />
+    <state x="-853" y="-379" key="#com.intellij.ide.util.MemberChooser" timestamp="1593295046316">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state x="-853" y="-379" key="#com.intellij.ide.util.MemberChooser/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593295046316" />
+    <state x="-799" y="-125" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595000836921">
+      <screen x="-1152" y="-968" width="1152" height="2048" />
+    </state>
+    <state x="-799" y="-125" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1152.-968.1152.2048/-820.1080.1440.900/0.0.1920.1080@-1152.-968.1152.2048" timestamp="1595000836921" />
+    <state x="-799" y="-215" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593289923984" />
+    <state x="-853" y="-289" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1593292841072">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state x="-853" y="-289" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593292841072" />
+    <state x="-853" y="-289" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/-820.1103.1440.851/0.23.1920.1057/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593290432209" />
+    <state width="1096" height="560" key="GridCell.Tab.0.bottom" timestamp="1593295620501">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state width="1096" height="560" key="GridCell.Tab.0.bottom/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593295620501" />
+    <state width="1096" height="560" key="GridCell.Tab.0.bottom/-820.1103.1440.851/0.23.1920.1057/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593289583612" />
+    <state width="1096" height="560" key="GridCell.Tab.0.center" timestamp="1593295620499">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state width="1096" height="560" key="GridCell.Tab.0.center/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593295620499" />
+    <state width="1096" height="560" key="GridCell.Tab.0.center/-820.1103.1440.851/0.23.1920.1057/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593289583608" />
+    <state width="1096" height="560" key="GridCell.Tab.0.left" timestamp="1593295620498">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state width="1096" height="560" key="GridCell.Tab.0.left/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593295620498" />
+    <state width="1096" height="560" key="GridCell.Tab.0.left/-820.1103.1440.851/0.23.1920.1057/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593289583603" />
+    <state width="1096" height="560" key="GridCell.Tab.0.right" timestamp="1593295620500">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state width="1096" height="560" key="GridCell.Tab.0.right/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593295620500" />
+    <state width="1096" height="560" key="GridCell.Tab.0.right/-820.1103.1440.851/0.23.1920.1057/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593289583611" />
+    <state x="-1147" y="-393" key="SettingsEditor" timestamp="1594998501855">
+      <screen x="-1152" y="-968" width="1152" height="2048" />
+    </state>
+    <state x="-1147" y="-393" key="SettingsEditor/-1152.-968.1152.2048/-820.1080.1440.900/0.0.1920.1080@-1152.-968.1152.2048" timestamp="1594998501855" />
+    <state x="-1147" y="-483" key="SettingsEditor/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593296590711" />
+    <state x="-952" y="-489" width="751" height="909" key="find.popup" timestamp="1593289831599">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state x="-952" y="-489" width="751" height="909" key="find.popup/-820.1080.1440.900/0.0.1920.1080/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593289831599" />
+    <state x="-995" y="-582" width="838" height="1032" key="search.everywhere.popup" timestamp="1593290061389">
+      <screen x="-1152" y="-1058" width="1152" height="2048" />
+    </state>
+    <state x="-995" y="-582" width="838" height="1032" key="search.everywhere.popup/-820.1103.1440.851/0.23.1920.1057/-1152.-1058.1152.2048@-1152.-1058.1152.2048" timestamp="1593290061389" />
+  </component>
+</project>

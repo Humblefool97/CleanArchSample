@@ -1,8 +1,8 @@
-package com.tbs.domain.interactor
+package com.tbs.domain.interactor.bookmark
 
 import com.nhaarman.mockito_kotlin.whenever
 import com.tbs.domain.executer.PostExecutionThread
-import com.tbs.domain.interactor.browse.GetProjects
+import com.tbs.domain.interactor.bookmarked.GetBookMarkedProjects
 import com.tbs.domain.interactor.test.ProjectDataFactory
 import com.tbs.domain.model.Project
 import com.tbs.domain.repository.ProjectsRepository
@@ -11,12 +11,13 @@ import org.junit.Before
 import org.junit.Test
 import org.mockito.Mock
 import org.mockito.MockitoAnnotations
+import java.lang.Exception
 
-class GetProjectsTest {
-    private lateinit var getProjects: GetProjects
+class GetBookmarkProjectsTest {
+    private lateinit var getBookmarkProjects: GetBookMarkedProjects
 
     @Mock
-    lateinit var projectsRepository: ProjectsRepository
+    lateinit var projectRepository: ProjectsRepository
 
     @Mock
     lateinit var postExecutionThread: PostExecutionThread
@@ -24,29 +25,28 @@ class GetProjectsTest {
     @Before
     fun setUp() {
         MockitoAnnotations.initMocks(this)
-        getProjects = GetProjects(projectsRepository, postExecutionThread)
+        getBookmarkProjects = GetBookMarkedProjects(projectRepository, postExecutionThread)
     }
 
     @Test
-    fun getProjectsCompletes() {
-        val projectObservable = Observable.just(ProjectDataFactory.makeProjectList(2))
-        stubGetProjects(projectObservable)
+    fun testGetBookmarkProjectsCompletable() {
+        stubGetProjects(Observable.just(ProjectDataFactory.makeProjectList(2)))
 
-        val testObservable = getProjects.buildUseCaseObservable().test()
+        val testObservable = getBookmarkProjects.buildUseCaseObservable().test()
         testObservable.assertComplete()
     }
 
     @Test
-    fun getProjectsValidateData() {
+    fun testValidateData() {
         val projects = ProjectDataFactory.makeProjectList(2)
         stubGetProjects(Observable.just(projects))
 
-        val testObservable = getProjects.buildUseCaseObservable().test()
+        val testObservable = getBookmarkProjects.buildUseCaseObservable().test()
         testObservable.assertValue(projects)
     }
 
     private fun stubGetProjects(observable: Observable<List<Project>>) {
-        whenever(projectsRepository.getProjects())
-                .thenReturn(observable)
+        whenever(projectRepository.getBookmarkedProjects())
+            .thenReturn(observable)
     }
 }

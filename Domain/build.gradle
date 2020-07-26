@@ -1,11 +1,12 @@
 plugins {
-    id 'java-library'
     id 'kotlin'
 }
 
 dependencies {
     def domainDependencies = rootProject.ext.domainDependencies
     def domainTestDependencies = rootProject.ext.domainTestDependencies
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     implementation domainDependencies.rxJava
     implementation domainDependencies.javaxAnnotation
