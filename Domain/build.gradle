@@ -8,7 +8,6 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-
     implementation domainDependencies.rxJava
     implementation domainDependencies.javaxAnnotation
     implementation domainDependencies.javaxInject
