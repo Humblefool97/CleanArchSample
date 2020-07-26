@@ -9,17 +9,17 @@ import javax.inject.Inject
 class BookmarkProject @Inject constructor(
     private val projectsRepository: ProjectsRepository,
     postExecutionThread: PostExecutionThread
-) : CompletableUseCase<BookmarkProject.Params>(postExecutionThread) {
+) : CompletableUseCase<BookmarkProject.Param>(postExecutionThread) {
 
-    data class Params constructor(val projectId: String) {
+    data class Param constructor(val projectId: String) {
         companion object {
-            fun forProject(projectId: String): Params {
-                return Params(projectId)
+            fun forProject(projectId: String): Param {
+                return Param(projectId)
             }
         }
     }
 
-    override fun buildUseCaseCompletable(params: Params?): Completable {
+    public override fun buildUseCaseCompletable(params: Param?): Completable {
         if (params == null)
             throw  IllegalArgumentException("Must supply arguments!")
         return projectsRepository.bookmarkProject(params.projectId)
