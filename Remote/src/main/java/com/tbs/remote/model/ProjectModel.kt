@@ -1,0 +1,12 @@
+package com.tbs.remote.model
+
+import com.google.gson.annotations.SerializedName
+import com.tbs.remote.model.OwnerModel
+
+data class ProjectModel(
+    val id: String, val name: String,
+    @SerializedName("full_name") val fullName: String,
+    @SerializedName("stargazers_count") val starCount: Int,
+    @SerializedName("created_at") val dateCreated: String,
+    val owner: OwnerModel
+)
