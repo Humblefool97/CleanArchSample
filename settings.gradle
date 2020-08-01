@@ -1,2 +1,5 @@
+include ':Remote'
 rootProject.name = "github"
 include ':Domain'
+include ':Data'
+
